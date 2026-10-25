@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "skill": "ec-shipping-research-skill",
+  "data_kind": "synthetic",
+  "instrument": "EC_SYNTHETIC",
+  "timeframe": "H4",
+  "as_of": "2024-01-09T15:00:00+08:00",
+  "max_bar_age_hours": 24,
+  "files": {
+    "bars": "bars.csv",
+    "futures": "futures.csv",
+    "settlement_index": "settlement-index.csv",
+    "route_scenarios": "route-scenarios.csv"
+  },
+  "options": {
+    "support": 100,
+    "contract": "EC2404"
+  }
+}

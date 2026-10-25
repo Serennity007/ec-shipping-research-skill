@@ -1,0 +1,4 @@
+scenario,known_at,base_cycle_days,extra_cycle_days,affected_share,demand_change_fraction
+DETOUR_ONLY,2024-01-09T00:00:00Z,60,20,0.5,0
+DEMAND_SOFTENING,2024-01-09T00:00:00Z,60,20,0.5,-0.2
+NORMALIZED,2024-01-09T00:00:00Z,60,0,0.5,0

@@ -1,8 +1,24 @@
+![Research workbench](.github/cover.svg)
+
 # 欧线 EC 研究 Skill
 
 把航线事件、有效运力、船司报价与已公布结算运价指数放到一条时间轴，判断叙事是否真正传导到 EC 合约。
 
 作者：[Serennity007](https://github.com/Serennity007) · [四类研究导航](https://github.com/Serennity007/market-research-skills) · [完整 Skill](SKILL.md) · MIT
+
+## 研究工作台 · v1.1
+
+**Python 3.10+ · 标准库 · 离线运行 · 独立安装**
+
+```bash
+python scripts/run_research.py --config examples/workbench.json --out output
+```
+
+打开终端打印的 `REPORT.html`：一次完成结构检查、领域计算、高级对照与证据整理，同时保存 Markdown、JSON 和可重跑输入。重复运行使用新目录。
+
+**[先看完整模拟报告](examples/workbench/REPORT.md)** · [计算与来源](examples/workbench/bundle.json) · [工作台与高级数据](references/workbench.md) · [Skill 指令](SKILL.md)
+
+**欧线：绕航与需求的敏感性分析**：把往返周转、受影响运力和需求变化拆成可计算情景，检查需求转弱能否抵消绕航压力。
 
 ## 能做什么
 
@@ -49,4 +65,4 @@ python -m unittest discover -s tests -v
 
 [研究与复盘记录模板](references/report-template.md) · [官方来源](references/sources.md)
 
-本地验证（2026-10-25）：**18 项测试通过**，Skill 入口通过结构校验。[从输出到研究结论的模拟记录](examples/research-note.md) 展示保留分歧和留空未知结果的写法。
+本地验证（2026-10-25）：**27 项测试通过**，覆盖原有功能、新领域算术、未来信息隔离、输入冻结与重跑、跨目录 CLI 和 HTML 转义。测试数量是可重复执行的行为检查数，不代表研究胜率。
