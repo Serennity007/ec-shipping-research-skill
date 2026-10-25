@@ -1,0 +1,3 @@
+contract,contract_month,price,quote_time,unit
+EC2404,2024-04,1200,2024-01-09T08:00:00+08:00,index_points
+EC2404,2024-04,1600,2024-01-10T08:00:00+08:00,index_points

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic",
+  "contract": "EC2404",
+  "contract_month": "2024-04",
+  "as_of_utc": "2024-01-09T00:00:00+00:00",
+  "quote_time": "2024-01-09T00:00:00+00:00",
+  "futures_price": 1200.0,
+  "index_name": "SCFIS_EUROPE",
+  "index_period_end": "2024-01-04T16:00:00+00:00",
+  "index_published_at": "2024-01-08T07:00:00+00:00",
+  "last_published_index": 1000.0,
+  "futures_minus_last_published_index": 200.0,
+  "difference_ratio": 0.19999999999999996,
+  "publication_age_seconds": 61200.0,
+  "quote_age_seconds": 0.0,
+  "index_published_after_quote": false,
+  "excluded_future_quotes": 1,
+  "excluded_future_publications": 1,
+  "source_sha256": {
+    "futures": "aea351a266b0d1421ca221cd293d6b4f2ac716ad84004e8bd67a74349398278d",
+    "index": "3d77d168a7c54d6f20f4594ef399adc0620a2effe142fa0c2cfdc29b6825252b"
+  },
+  "scope": "Difference from a lagged published index, not a guaranteed basis trade or final settlement-price forecast.",
+  "limitations": [
+    "No final cash-settlement calculation; verify exchange rules for the specific contract",
+    "Shipping news, carrier quotes and SCFI are not SCFIS settlement observations",
+    "Quote and publication timestamps can differ; do not present this as a synchronous tradable spread"
+  ],
+  "generated_at_utc": "2026-10-25T07:47:50.661311+00:00"
+}
