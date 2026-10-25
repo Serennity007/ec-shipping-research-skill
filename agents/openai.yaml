@@ -1,4 +1,6 @@
 interface:
-  display_name: "欧线 EC 研究 Skill"
-  short_description: "欧线 EC 航路事件、运力与结算指数研究，按真实公布时点比较期价"
-  default_prompt: "使用 $ec-shipping-research-skill，根据我提供的标的、数据与截止时间完成研究，明确事实、情景、失效条件和复盘检查点。"
+  display_name: "Europe container freight Research"
+  short_description: "Publication-aware ec-shipping futures research and replay"
+  default_prompt: "Use $ec-shipping-research-skill to research the supplied contract and evidence, preserving availability clocks and explaining contrary evidence."
+policy:
+  allow_implicit_invocation: true

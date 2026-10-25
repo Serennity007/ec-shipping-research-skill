@@ -4,6 +4,18 @@
 
 # 欧线 EC 研究
 
+<!-- futures-desk-v3 -->
+## v2.0 研究工作台
+
+新增**中英双语**离线报告、历史版本与夜盘交易日约束、可比基差月差、季节证据、Decimal 费用保证金容量及跳空压力情景。[输入约定](docs/desk-data-contract.md) · [产业研究手册](references/research-playbook.md) · [容量假设](docs/desk-risk-model.md)。
+
+```bash
+python scripts/run_desk.py run --config examples/desk-demo/ec-shipping/config.json --out output --lang zh-CN
+```
+
+每次运行同时生成中英报告。下方原命令和冻结中文演示继续保留。独立 Skill ZIP 可在[发布页](https://github.com/Serennity007/ec-shipping-research-skill/releases)下载。基础命令只需 Python 3.10+。
+
+
 这里研究集运指数（欧线）期货 EC，先区分航路消息、船司报价和已公布运价，再检查它们能否对应到目标合约。
 
 [涛涛的期货研究](https://github.com/Serennity007/taotao-futures-research) · [Skill 指令](SKILL.md) · MIT
